@@ -13,8 +13,26 @@
 </head>
 <body>
     <header>
+        <div id="mobi">
+            <ul>
+                <i style="float: right; font-size: 30px; padding-right: 10px;" onclick="sextoy()" class="fa-solid fa-x"></i>
+                <img style="width: 230px; " src="/image/xofa-black.png"/>
+                <li><a href="" id="linksex" style="font-weight: 700; color: rgb(155, 90, 5);" >TRANG CHỦ</a></li>
+                <li><a href="" id="linksex">Về XOFA</a></li>
+                <li><a href="" id="linksex">MENU</a></li>
+                <li><a href="" id="linksex">FAQ</a></li>
+                <li><a href="" id="linksex">LIÊN HỆ</a></li>
+                <li><a href="" id="linksex">ENLISH</a></li>
+            </ul>
+
+        </div>
+        <div class="daubuoi">
+            <button type="button" onclick="sextoy()" class="button" ><i class="fa-solid fa-bars"></i></button>
+            <img style="width: 230px; " src="/image/icon.png"/>
+        </div>
+       
        <div class="container">
-            <div class="iteam1" ><img style="width: 230px;" src="/image/icon.png"/></div>
+            <div class="iteam1" ><img style="width: 230px;  " src="/image/icon.png"/></div>
             <div class="iteam2">
                 <ul id="menu">
                     <li><a href="" id="link" style="color: rgb(173, 106, 11); font-weight: 500;">TRANG CHỦ</a></li>
@@ -48,6 +66,20 @@
         </div>
 
     </header>
+    <script>
+        var a = document.getElementById("mobi")
+        var b = true
+        function sextoy(){
+        
+            if (b == true){
+                a.setAttribute("style", "display: block;");
+                b = false
+            }else{
+                a.setAttribute("style", "display: none;");
+                b = true
+            }
+        }
+    </script>
    
 </body>
 </html>
