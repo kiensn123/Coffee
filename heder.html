@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <div id="mobi">
+        <div class="mobi  " id="mobie">
             <ul>
-                <i style="float: right; font-size: 30px; padding-right: 10px;" onclick="sextoy()" class="fa-solid fa-x"></i>
+                <i style="float: right; font-size: 30px; padding-right: 10px;" onclick="sextoy()" class="fa-solid fa-x" ></i>
                 <img style="width: 230px; " src="/image/xofa-black.png"/>
                 <li><a href="" id="linksex" style="font-weight: 700; color: rgb(155, 90, 5);" >TRANG CHỦ</a></li>
                 <li><a href="" id="linksex">Về XOFA</a></li>
@@ -67,16 +67,14 @@
 <!-- fd -->
     </header>
     <script>
-        var a = document.getElementById("mobi")
-        var b = true
-        function sextoy(){
+      
         
-            if (b == true){
-                a.setAttribute("style", "display: block;");
-                b = false
+        function sextoy(){
+            var a = document.getElementById("mobie")
+            if(a.classList.contains("vai")){
+                a.classList.remove("vai")
             }else{
-                a.setAttribute("style", "display: none;");
-                b = true
+                a.classList.add("vai")
             }
         }
     </script>

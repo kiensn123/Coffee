@@ -4,27 +4,34 @@
     padding: 0;
 }
 
-header #mobi{
-    display: none;
+
+header{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(0,rgba(64, 34, 24,0.651),rgba(64, 34, 24, 0.651)) ,url(/image/banner.jpg) ;
+    height: 500px;
+   
+}
+
+header .mobi{
+    
    
     position: absolute;
-   
+    display: none; 
     width: 50%;
     height: 1000px;
     background-color: rgb(255, 249, 243);
-}
-header #mobi>ul {
-    list-style: none;
-     
     
- }
-header #mobi>ul>li {
- 
-   margin: 30px 15px;
-
-   
 }
-header #mobi>ul>li #linksex{
+header .mobi>ul {
+    list-style: none;
+      
+}
+header .mobi>ul>li {
+   margin: 30px 15px;
+}
+header .mobi>ul>li #linksex{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -32,7 +39,7 @@ header #mobi>ul>li #linksex{
     text-decoration: none;
     font-size: 20px;
 }
-header #mobi>ul>li #linksex:hover{
+header .mobi>ul>li #linksex:hover{
     color: rgb(161, 77, 7);
     text-decoration: none;
     font-size: 20px;
@@ -48,14 +55,7 @@ header .daubuoi .button{
     font-size: 20px;
     
 }
-header{
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image: linear-gradient(0,rgba(64, 34, 24,0.651),rgba(64, 34, 24, 0.651)) ,url(/image/banner.jpg) ;
-    
-   
-}
+
 header .container{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -118,6 +118,7 @@ header .container .iteam3 #hai{
 }
 
 @media screen and (max-width: 1366px) {
+  
  
     header{
       
@@ -192,11 +193,19 @@ header .container .iteam3 #hai{
     
 }
 @media screen and (max-width: 844px) {
+ 
     header .container{
         display: none;
 
     }
+  
     header .daubuoi{
         display: block;
     }
+    header .mobi{
+        display: block;
+     
+    
+   }
+   
 }
