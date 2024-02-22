@@ -1,0 +1,195 @@
+footer{
+    
+    background-color: rgb(36, 25, 21);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+footer .img{
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(314px,2fr));
+   
+}
+footer .img>img{
+    
+    width: calc(100%);
+   
+    margin: 0;
+    padding: 0;
+    
+}
+footer .img>img:hover{
+    
+    filter: blur(10px);
+    transition: 300ms;
+    
+}
+a{
+    text-decoration: none;
+}
+footer .container{
+    padding-top: 70px;
+    width: 70%;
+    margin: auto;
+}
+
+footer .container .mot{
+  
+    border-bottom: 1px solid rgba(87, 53, 41, 0.726);
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 2rem;
+}
+footer .container .iteam{
+    align-items: center;
+   display: flex;
+   
+  
+}
+footer .container .iteam .iteamicon{
+    
+    color: rgb(188, 152, 115);
+    border: 1px solid rgb(255, 255, 255) ;
+    font-size:20px;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px ; 
+    
+}
+footer .container .iteam .iteamicon>p{
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 16px
+    
+ 
+  
+}
+footer .container .iteam .iteamchu{
+    color: rgb(255, 255, 255);
+  
+
+
+}
+footer .container .iteam .iteamicon:hover{
+    background-color: aliceblue;
+     transition: 500ms;
+    
+}
+
+
+footer .container .hai{
+   
+    border-bottom: 1px solid rgba(87, 53, 41, 0.726);
+    margin: auto;
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 2rem;
+}
+footer .container .hai>div{
+    margin: 50px 15px;
+    
+}
+footer .container .hai .haiiteam1{
+    color: aliceblue;
+    
+}
+footer .container .hai .haiiteam1>button{
+   width: 40px;
+   height: 40px;
+   color: white;
+   font-size: 15px;
+   margin-right: 10px;
+   background-color: rgba(255, 255, 255, 0);
+   border: 1px solid white;
+    
+}
+footer .container .hai .haiiteam1>button:hover{
+    background-color: rgb(174, 139, 106);
+    transform: scale(0.8);
+    transition:  500ms;
+    border: 1px solid rgb(109, 82, 57) ;
+}
+
+footer .container .hai .haiiteam2{
+  color: white;
+  
+}
+footer .container .hai .haiiteam2>p>i{
+   padding-right: 5px;
+   color: rgb(169, 148, 106);
+
+}
+#linksex{
+    color: aliceblue;
+}
+#linksex:hover{
+    color: rgb(169, 148, 106);
+    transition: 300ms;
+  
+}
+
+footer .container .hai #dau{
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+
+
+footer .container .hai .haiiteam3>ul{
+   list-style: none;
+   padding-left: 0;
+ 
+}
+footer .container .hai .haiiteam3>ul>li{
+   margin: 20px 0;
+  
+ }
+ 
+
+ footer .container .hai .haiiteam3>ul>li>i{
+    padding-right: 5px;
+    color: rgb(169, 148, 106);
+  
+ }
+ 
+footer  .container .hai .haiiteam4{
+    color: white;
+    
+ }
+footer  .container .hai .haiiteam4 #dau{
+    margin-bottom: 40px;
+    
+ }
+footer  .container .hai .haiiteam4>input{
+    height: 35px;
+    width: 200px;
+    border: none;
+    
+ }
+ footer  .container .hai .haiiteam4>button{
+    height: 37px;
+    width: 60px;
+    background-color: rgb(167, 135, 102);
+    color: white;
+    
+    border: none;
+    
+ }
+ 
+
+ footer  .container .ba{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+ }
+
+

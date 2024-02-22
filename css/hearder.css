@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(0,rgba(64, 34, 24,0.651),rgba(64, 34, 24, 0.651)) ,url(/image/banner.jpg) ;
+    
+   
+}
+header .container{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.664);
+}
+
+
+header .container .iteam2{
+    margin-left: 50px;
+    margin-top: 35px;
+     
+ }
+
+
+header .container>div>ul{
+    list-style: none;
+    display: flex;
+   
+}
+header .container>div>ul>li{
+    margin-left: 40px;
+   
+}
+header .container>div>ul>li>a:hover{
+    transition-duration: 0.5s;
+   color: rgb(188, 152, 113);
+}
+header .container>div>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+header .container .iteam3{
+    margin:5px 0 ;
+    width: 300px;
+    margin-left: 90px;
+    background-color:rgb(60, 143, 71);
+    display: flex;
+    color: white;
+   
+    
+}
+header .container .iteam3>div{
+    margin-left: 20px;
+    margin-top: 3px;
+    
+}
+header .container .iteam3 #mot{
+    padding-top: 15px;
+    font-size: 35px;
+}
+header .container .iteam3 #hai{
+    padding-top: 16px;
+
+ 
+}
